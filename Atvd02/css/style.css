@@ -1,0 +1,39 @@
+/* Estilização geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Estilização da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilização das células da tabela */
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Estilização do cabeçalho da tabela */
+th {
+    background-color: #f4f4f4;
+}
+
+/* Estilização dos botões */
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

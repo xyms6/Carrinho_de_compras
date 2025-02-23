@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Importa o CSS externo -->
+    <script defer src="js/script.js"></script> <!-- Importa o JavaScript externo -->
+</head>
+<body>
+    <h1>Carrinho de Compras</h1>
+    <button onclick="adicionarItem(1, 'Mouse', 50)">Adicionar Mouse - R$50</button>
+    <button onclick="adicionarItem(2, 'Teclado', 100)">Adicionar Teclado - R$100</button>
+    <button onclick="adicionarItem(3, 'Monitor', 500)">Adicionar Monitor - R$500</button>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="carrinho"></tbody>
+    </table>
+    <h2>Total: R$ <span id="total">0</span></h2>
+</body>
+</html>
